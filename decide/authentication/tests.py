@@ -10,6 +10,8 @@ from base import mods
 
 class AuthTestCase(APITestCase):
 
+    #Commit 1
+
     def setUp(self):
         self.client = APIClient()
         mods.mock_query(self.client)
