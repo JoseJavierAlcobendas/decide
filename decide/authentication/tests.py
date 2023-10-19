@@ -10,7 +10,8 @@ from base import mods
 
 class AuthTestCase(APITestCase):
 
-    #Commit 1
+    #Commit 1  ç
+    
 
     def setUp(self):
         self.client = APIClient()
