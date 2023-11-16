@@ -13,6 +13,7 @@ WORKDIR /app
 RUN git clone https://github.com/JoseJavierAlcobendas/decide .
 RUN pip install -r requirements.txt
 
+
 WORKDIR /app/decide
 
 # local settings.py
